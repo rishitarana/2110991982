@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main">
+        <div class="right">
+            <div class="text">
+                <p>Don't have an account?</p>
+                <!-- <a href="#">Forgot my Password</a> -->
+            </div>
+            <a href="signup.html">
+                <button class="but-1"style="vertical-align:middle"><span>Sign-up</span></button>
+            </a>
+        </div>
+    </div>
+    <div class="login-form">
+        <h1 class="main-head">Login your account</h1>
+    
+        <form action="index.html" name="signup-form" onsubmit="handleSubmit(e)">
+                <div class="form-group">
+                  <input type="text" required>
+                  <span></span>
+                  <label>FIRST NAME</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" required>
+                    <span></span>
+                    <label>LAST NAME</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" required>
+                    <span></span>
+                    <label>PASSWORD</label>
+                </div>
+                <div class="check">
+                    <p>
+                        By clicking "LOG IN", I agree to the <a href="#">terms & conditions</a>,the <a href="#">Creators club Terms & Conditions</a> and the <a href="#">Privacy Policy</a>
+                    </p> 
+                </div>
+                <input type="submit" value="Login">
+        </form>
+        <!-- <script>
+            const handleSubmit = (e) => {
+                e.preventDefault();
+            }
+        </script> -->
+</body>
+</html>
